@@ -1,13 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import SplashScreen from './pages/splash-screen/SplashScreen';
+import CategoriesPage from './pages/categorias/CategoriasPage';
 
-function App() {
+/*function App() {
   return (
-    <div className="App">
+    <>
       <SplashScreen />
-    </div>
+    </>
   );
+}
+  */
+function App() {
+return (
+  <>
+  <CategoriesPage/>
+  </>
+ );
 }
 
 export default App;
